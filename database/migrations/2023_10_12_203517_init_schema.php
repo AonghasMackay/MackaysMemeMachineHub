@@ -11,12 +11,6 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //as its an initial migration, we can just drop all tables
-        Schema::dropIfExists('leaderboard');
-        Schema::dropIfExists('user_stats');
-        Schema::dropIfExists('user_score');
-        Schema::dropIfExists('users');
-
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('user_id')->unique();
