@@ -22,10 +22,4 @@ class UserController extends Controller
     {
 
     }
-
-    public function countAll() {
-        $users = DB::table('users')->count();
-
-        return view('dashboard', ['users' => $users]);
-    }
 }
