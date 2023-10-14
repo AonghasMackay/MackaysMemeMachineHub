@@ -3,7 +3,7 @@
         <div class="col d-flex flex-row align-items-center justify-content-between pt-3">
             <div id="header-left" class="d-flex flex-row align-items-center">
                 <a href="/" class="me-3" alt="home">
-                    <img class="img-fluid" src="{{ asset('storage/aon_lul.webp') }}" />
+                    <img class="img-fluid" src="{{ asset('images/aon_lul.webp') }}" />
                 </a>
                 <h3>Mackay's Meme Machine</h3>
                 <span class="ms-3 badge bg-secondary">Username</span>
