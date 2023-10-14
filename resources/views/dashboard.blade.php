@@ -21,7 +21,9 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="tabContent">
-                        <div class="tab-pane fade show active" id="scoreboard-pane" role="tabpanel" aria-labelledby="scoreboard-tab" tabindex="0">....</div>
+                        <div class="tab-pane fade show active" id="scoreboard-pane" role="tabpanel" aria-labelledby="scoreboard-tab" tabindex="0">
+                            <x-table.scoreboard :userScores="$userScores" />
+                        </div>
                         <div class="tab-pane fade" id="leaderboard-pane" role="tabpanel" aria-labelledby="leaderboard-tab" tabindex="0">...</div>
                         <div class="tab-pane fade" id="stats-pane" role="tabpanel" aria-labelledby="stats-tab" tabindex="0">..</div>
                     </div>

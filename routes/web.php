@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\UserScoreController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +14,4 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard');
-});
-
-
-Route::get('/user', [UserController::class, 'countAll']);
+Route::get('/', [UserScoreController::class, 'index']);
