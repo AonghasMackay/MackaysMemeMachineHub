@@ -4,8 +4,8 @@
 
     <title>Mackays Meme Machine</title>
 
-    <!-- Favicons -->
-    
+    <!-- Favicon -->
+    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
