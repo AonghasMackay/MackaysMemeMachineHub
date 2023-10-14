@@ -1,0 +1,29 @@
+:root {
+    --header-height: 80px;
+    --background-dark: #1E2019;
+    --tint: #de2239;
+}
+
+header {
+    max-height: var(--header-height);
+}
+
+header h3 {
+    padding-bottom: 0;
+}
+
+header img {
+    max-height: calc(var(--header-height) - 30px);
+}
+
+.bg-dark {
+    background-color: var(--background-dark) !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link.active {
+    color: var(--background-dark) !important;
+}

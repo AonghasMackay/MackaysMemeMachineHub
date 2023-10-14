@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <x-structure.head />
-    <body>
+    <body class="bg-dark text-light">
         <header>
             <x-structure.header />
         </header>
